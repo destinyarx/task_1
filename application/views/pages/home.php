@@ -8,15 +8,41 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 
-<div id="container">
-	<h1> <?= $title; ?> </h1>
-	<p>
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-		dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-	</p>
+<div class="container">
+	<div class="row">
+		<div class="col col-6 col-md-6 col-lg-6 col-xl-6 mt-5 col-sm-12">
+			<img id="front-image" src="<?=base_url('/images/medical.svg'); ?>" alt="">
+		</div>
+
+		<div class="col col-6 col-md-6 col-lg-6 col-xl-6 mt-5 col-sm-12">
+				<div class="card gradient-custom" style="border-radius: 1rem;">
+					<div class="card-body p-5 text-white">
+						<div class="my-md-5">
+
+							<div class="text-center mb-2">
+								<i class="bi bi-heart-pulse-fill fa-5x"></i>
+								<h1 class="fw-bold text-uppercase">Welcome</h1>
+							</div>
+
+							<br><br>
+
+							<p>
+							“To inspire hope and contribute to health and well-being by 
+							providing the best care to every patient through integrated 
+							clinical practice, education and research.”
+							</p>
+
+							
+
+							</form>
+						</div>
+					</div>
+				</div> 
+
+		</div>            
+	</div>
 </div>
+
 
 </body>
 </html>
