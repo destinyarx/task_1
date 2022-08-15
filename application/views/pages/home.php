@@ -27,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<br><br>
 
 							<p>
-							“To inspire hope and contribute to health and well-being by 
+							“To inspire, hope, and contribute to health and well-being by 
 							providing the best care to every patient through integrated 
 							clinical practice, education and research.”
 							</p>
