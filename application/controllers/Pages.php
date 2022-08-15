@@ -10,7 +10,7 @@ class Pages extends CI_Controller {
 		}
 
 
-		$this->load->helper('url');
+		
 
 		$data['title'] = 'Home Page';
 

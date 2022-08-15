@@ -11,31 +11,15 @@
         </div>
 
         <hr class="clearfix w-100 d-md-none pb-3">
-  
-        
-        <div class="col-md-6 mb-md-0 mb-3">
-  
-          <!-- Content -->
+
+        <div class="col-md-6 mb-md-0 mb-3"> 
           <h5 class="text-uppercase font-weight-bold">About Us</h5>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum
             commodi aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id
             excepturi hic.</p>
-  
         </div>
-        <!-- Grid column -->
-  
       </div>
-      <!-- Grid row -->
-  
     </div>
-    <!-- Footer Text -->
-  
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="/"> MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  
   </footer>
  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

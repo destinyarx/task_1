@@ -13,17 +13,6 @@
     
     <link rel="icon" type="image/png" href="https://colorlib.com/etc/tb/Table_Fixed_Header/images/icons/favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="./Table V04_files/bootstrap.min.css">
-
-    <link rel="stylesheet" type="text/css" href="./Table V04_files/font-awesome.min.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="./Table V04_files/select2.min.css">
-
-    <link rel="stylesheet" type="text/css" href="./Table V04_files/perfect-scrollbar.css">
-
-
-
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -36,7 +25,7 @@
       <ul class="navbar-nav mr-auto">
 
         <li class="nav-item active">
-          <a class="nav-link" href="<?php echo base_url('public/'); ?>">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="<?php echo base_url(); ?>">Home <span class="sr-only">(current)</span></a>
         </li>
 
         <li class="nav-item">
@@ -44,7 +33,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="patient">Add Record</a>
+          <a class="nav-link" href="add_record">Add Record</a>
         </li>
 
         <li class="nav-item dropdown">
