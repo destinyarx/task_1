@@ -1,2 +1,4 @@
 
-<h1>This is about Page</h1>
+<div class="d-flex p-2">
+    <h1>About Page</h1>
+</div>
